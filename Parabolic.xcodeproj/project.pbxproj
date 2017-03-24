@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		281067861C1686BD00FB6E1B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 281067851C1686BD00FB6E1B /* main.m */; };
+		281067891C1686BD00FB6E1B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 281067881C1686BD00FB6E1B /* AppDelegate.m */; };
+		2810678C1C1686BD00FB6E1B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2810678B1C1686BD00FB6E1B /* ViewController.m */; };
+		2810678F1C1686BD00FB6E1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2810678D1C1686BD00FB6E1B /* Main.storyboard */; };
+		281067911C1686BD00FB6E1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 281067901C1686BD00FB6E1B /* Assets.xcassets */; };
+		281067941C1686BD00FB6E1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 281067921C1686BD00FB6E1B /* LaunchScreen.storyboard */; };
+		2810679F1C1686BD00FB6E1B /* ParabolicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2810679E1C1686BD00FB6E1B /* ParabolicTests.m */; };
+		281067AA1C1686BD00FB6E1B /* ParabolicUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 281067A91C1686BD00FB6E1B /* ParabolicUITests.m */; };
+		281067BA1C16B1D300FB6E1B /* ParabolicAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 281067B91C16B1D300FB6E1B /* ParabolicAction.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2810679B1C1686BD00FB6E1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 281067791C1686BC00FB6E1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 281067801C1686BD00FB6E1B;
+			remoteInfo = Parabolic;
+		};
+		281067A61C1686BD00FB6E1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 281067791C1686BC00FB6E1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 281067801C1686BD00FB6E1B;
+			remoteInfo = Parabolic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		281067811C1686BD00FB6E1B /* Parabolic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Parabolic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		281067851C1686BD00FB6E1B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		281067871C1686BD00FB6E1B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		281067881C1686BD00FB6E1B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2810678A1C1686BD00FB6E1B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2810678B1C1686BD00FB6E1B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2810678E1C1686BD00FB6E1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		281067901C1686BD00FB6E1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		281067931C1686BD00FB6E1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		281067951C1686BD00FB6E1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2810679A1C1686BD00FB6E1B /* ParabolicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParabolicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2810679E1C1686BD00FB6E1B /* ParabolicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParabolicTests.m; sourceTree = "<group>"; };
+		281067A01C1686BD00FB6E1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		281067A51C1686BD00FB6E1B /* ParabolicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParabolicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		281067A91C1686BD00FB6E1B /* ParabolicUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParabolicUITests.m; sourceTree = "<group>"; };
+		281067AB1C1686BD00FB6E1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		281067B81C16B1D300FB6E1B /* ParabolicAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParabolicAction.h; sourceTree = "<group>"; };
+		281067B91C16B1D300FB6E1B /* ParabolicAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParabolicAction.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2810677E1C1686BD00FB6E1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		281067971C1686BD00FB6E1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		281067A21C1686BD00FB6E1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		281067781C1686BC00FB6E1B = {
+			isa = PBXGroup;
+			children = (
+				281067831C1686BD00FB6E1B /* Parabolic */,
+				2810679D1C1686BD00FB6E1B /* ParabolicTests */,
+				281067A81C1686BD00FB6E1B /* ParabolicUITests */,
+				281067821C1686BD00FB6E1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		281067821C1686BD00FB6E1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				281067811C1686BD00FB6E1B /* Parabolic.app */,
+				2810679A1C1686BD00FB6E1B /* ParabolicTests.xctest */,
+				281067A51C1686BD00FB6E1B /* ParabolicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		281067831C1686BD00FB6E1B /* Parabolic */ = {
+			isa = PBXGroup;
+			children = (
+				281067B71C16B1A600FB6E1B /* 抛物动画 */,
+				281067871C1686BD00FB6E1B /* AppDelegate.h */,
+				281067881C1686BD00FB6E1B /* AppDelegate.m */,
+				2810678A1C1686BD00FB6E1B /* ViewController.h */,
+				2810678B1C1686BD00FB6E1B /* ViewController.m */,
+				2810678D1C1686BD00FB6E1B /* Main.storyboard */,
+				281067901C1686BD00FB6E1B /* Assets.xcassets */,
+				281067921C1686BD00FB6E1B /* LaunchScreen.storyboard */,
+				281067951C1686BD00FB6E1B /* Info.plist */,
+				281067841C1686BD00FB6E1B /* Supporting Files */,
+			);
+			path = Parabolic;
+			sourceTree = "<group>";
+		};
+		281067841C1686BD00FB6E1B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				281067851C1686BD00FB6E1B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2810679D1C1686BD00FB6E1B /* ParabolicTests */ = {
+			isa = PBXGroup;
+			children = (
+				2810679E1C1686BD00FB6E1B /* ParabolicTests.m */,
+				281067A01C1686BD00FB6E1B /* Info.plist */,
+			);
+			path = ParabolicTests;
+			sourceTree = "<group>";
+		};
+		281067A81C1686BD00FB6E1B /* ParabolicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				281067A91C1686BD00FB6E1B /* ParabolicUITests.m */,
+				281067AB1C1686BD00FB6E1B /* Info.plist */,
+			);
+			path = ParabolicUITests;
+			sourceTree = "<group>";
+		};
+		281067B71C16B1A600FB6E1B /* 抛物动画 */ = {
+			isa = PBXGroup;
+			children = (
+				281067B81C16B1D300FB6E1B /* ParabolicAction.h */,
+				281067B91C16B1D300FB6E1B /* ParabolicAction.m */,
+			);
+			path = "抛物动画";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		281067801C1686BD00FB6E1B /* Parabolic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 281067AE1C1686BD00FB6E1B /* Build configuration list for PBXNativeTarget "Parabolic" */;
+			buildPhases = (
+				2810677D1C1686BD00FB6E1B /* Sources */,
+				2810677E1C1686BD00FB6E1B /* Frameworks */,
+				2810677F1C1686BD00FB6E1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Parabolic;
+			productName = Parabolic;
+			productReference = 281067811C1686BD00FB6E1B /* Parabolic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		281067991C1686BD00FB6E1B /* ParabolicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 281067B11C1686BD00FB6E1B /* Build configuration list for PBXNativeTarget "ParabolicTests" */;
+			buildPhases = (
+				281067961C1686BD00FB6E1B /* Sources */,
+				281067971C1686BD00FB6E1B /* Frameworks */,
+				281067981C1686BD00FB6E1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2810679C1C1686BD00FB6E1B /* PBXTargetDependency */,
+			);
+			name = ParabolicTests;
+			productName = ParabolicTests;
+			productReference = 2810679A1C1686BD00FB6E1B /* ParabolicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		281067A41C1686BD00FB6E1B /* ParabolicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 281067B41C1686BD00FB6E1B /* Build configuration list for PBXNativeTarget "ParabolicUITests" */;
+			buildPhases = (
+				281067A11C1686BD00FB6E1B /* Sources */,
+				281067A21C1686BD00FB6E1B /* Frameworks */,
+				281067A31C1686BD00FB6E1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				281067A71C1686BD00FB6E1B /* PBXTargetDependency */,
+			);
+			name = ParabolicUITests;
+			productName = ParabolicUITests;
+			productReference = 281067A51C1686BD00FB6E1B /* ParabolicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		281067791C1686BC00FB6E1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "IOS-开发机";
+				TargetAttributes = {
+					281067801C1686BD00FB6E1B = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					281067991C1686BD00FB6E1B = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 281067801C1686BD00FB6E1B;
+					};
+					281067A41C1686BD00FB6E1B = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 281067801C1686BD00FB6E1B;
+					};
+				};
+			};
+			buildConfigurationList = 2810677C1C1686BC00FB6E1B /* Build configuration list for PBXProject "Parabolic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 281067781C1686BC00FB6E1B;
+			productRefGroup = 281067821C1686BD00FB6E1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				281067801C1686BD00FB6E1B /* Parabolic */,
+				281067991C1686BD00FB6E1B /* ParabolicTests */,
+				281067A41C1686BD00FB6E1B /* ParabolicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2810677F1C1686BD00FB6E1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				281067941C1686BD00FB6E1B /* LaunchScreen.storyboard in Resources */,
+				281067911C1686BD00FB6E1B /* Assets.xcassets in Resources */,
+				2810678F1C1686BD00FB6E1B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		281067981C1686BD00FB6E1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		281067A31C1686BD00FB6E1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2810677D1C1686BD00FB6E1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2810678C1C1686BD00FB6E1B /* ViewController.m in Sources */,
+				281067891C1686BD00FB6E1B /* AppDelegate.m in Sources */,
+				281067861C1686BD00FB6E1B /* main.m in Sources */,
+				281067BA1C16B1D300FB6E1B /* ParabolicAction.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		281067961C1686BD00FB6E1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2810679F1C1686BD00FB6E1B /* ParabolicTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		281067A11C1686BD00FB6E1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				281067AA1C1686BD00FB6E1B /* ParabolicUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2810679C1C1686BD00FB6E1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 281067801C1686BD00FB6E1B /* Parabolic */;
+			targetProxy = 2810679B1C1686BD00FB6E1B /* PBXContainerItemProxy */;
+		};
+		281067A71C1686BD00FB6E1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 281067801C1686BD00FB6E1B /* Parabolic */;
+			targetProxy = 281067A61C1686BD00FB6E1B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2810678D1C1686BD00FB6E1B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2810678E1C1686BD00FB6E1B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		281067921C1686BD00FB6E1B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				281067931C1686BD00FB6E1B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		281067AC1C1686BD00FB6E1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		281067AD1C1686BD00FB6E1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		281067AF1C1686BD00FB6E1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Parabolic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huodull.Parabolic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		281067B01C1686BD00FB6E1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Parabolic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huodull.Parabolic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		281067B21C1686BD00FB6E1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ParabolicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huodull.ParabolicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Parabolic.app/Parabolic";
+			};
+			name = Debug;
+		};
+		281067B31C1686BD00FB6E1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ParabolicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huodull.ParabolicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Parabolic.app/Parabolic";
+			};
+			name = Release;
+		};
+		281067B51C1686BD00FB6E1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ParabolicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huodull.ParabolicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Parabolic;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		281067B61C1686BD00FB6E1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ParabolicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huodull.ParabolicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Parabolic;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2810677C1C1686BC00FB6E1B /* Build configuration list for PBXProject "Parabolic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				281067AC1C1686BD00FB6E1B /* Debug */,
+				281067AD1C1686BD00FB6E1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		281067AE1C1686BD00FB6E1B /* Build configuration list for PBXNativeTarget "Parabolic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				281067AF1C1686BD00FB6E1B /* Debug */,
+				281067B01C1686BD00FB6E1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		281067B11C1686BD00FB6E1B /* Build configuration list for PBXNativeTarget "ParabolicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				281067B21C1686BD00FB6E1B /* Debug */,
+				281067B31C1686BD00FB6E1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		281067B41C1686BD00FB6E1B /* Build configuration list for PBXNativeTarget "ParabolicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				281067B51C1686BD00FB6E1B /* Debug */,
+				281067B61C1686BD00FB6E1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 281067791C1686BC00FB6E1B /* Project object */;
+}
